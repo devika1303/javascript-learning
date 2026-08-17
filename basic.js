@@ -44,17 +44,29 @@
 // let marks = 85;
 // console.log(marks);
 
-//grade caluclator
-let marks = 88;
-if(marks>=90){
-    console.log(" A Grade");
-}
-else if(marks>=75){
-    console.log("B Grade");
-}
-else if(marks >=50){
-    console.log("C Grade");
+// // CONDITIONAL STATEMENTS
+// //grade caluclator
+// let marks = 88;
+// if(marks>=90){
+//     console.log(" A Grade");
+// }
+// else if(marks>=75){
+//     console.log("B Grade");
+// }
+// else if(marks >=50){
+//     console.log("C Grade");
+// }
+// else{
+//     console.log("Fail");
+// }
+
+
+//voting eligibility
+let age = 20;
+age = 15
+if(age>=18){
+    console.log("Eligible To Vote");
 }
 else{
-    console.log("Fail");
+    console.log("Not eligible To Vote")
 }
