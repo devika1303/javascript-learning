@@ -83,14 +83,96 @@
 // console.log("remaining balance =", balance-withdrawlAmount)
 
 // // LOOPS
+
+// //student names
+// for(let i = 1;i <= 10;i++){
+//     console.log("student", i)
+// }
+// // even numbers
+// for(let i=2;i<=20;i+=2){
+//     console.log(i)
+// }
+// //odd numbers
+// for(let i=1;i<=20;i+=2){
+//     console.log(i)
+// }
+// //reverse counting
+// for(i=10;i>=1;i--){
+//     console.log(i)
+// }
+
+// // While loop
+// let i=1;
+// while(i<=5){
+//     console.log(i);
+//     i++;
+// }
+
+// // DO WHILE
+// let i = 10;
+// do{
+// console.log(i);
+// i++;
+// } while(i <= 20);
+
+//BREAK STATEMENT
+// for(let i=1;i<=10;i++){
+//     if(i===5){
+//         break;
+//     }
+      
+// console.log(i);
+// }
+
+// //CONTINUE STATEMENT
+// for(let i=1;i<=10;i++){
+//     if(i===4){
+//         continue;
+//     }
+      
+// console.log(i);
+// }
+
+// // NESTED LOOPS
+// for(let i=1;i<=5;i++){
+//     for(let j=1;j<=5;j++){
+//         console.log(i, j);
+//     }
+// }
+
 // //tables
 // let number = 5;
 // for(let i=1;i<=10;i++){
 //     console.log(number*i)
 // }
 
-// enhanced version of tables
+// //STAR PATTERN
+// debugger
+// for(let i=1;i<=5;i++){
+//     console.log("*".repeat(i))
+// }
+
+//NUMBER PATTERN
+let row = "";
+for(let i=1;i<=5;i++){
+    for(let j=1;j<=i;j++){
+        row = row + j;
+    }
+    console.log(row);
+}
+
+//REVERSE STAR PATTERN
+for(let i=5;i>=1;i--){
+    console.log("*".repeat(i))
+}
+
+//MULTIPLICATION TABLE GENERATOR
 let number = 5;
 for(let i = 1; i <= 10; i++){
 console.log(`${number} x ${i} = ${number * i}`);
+}
+
+//EVEN NUMBERS FROM 1-100
+for(i=2;i<=100;i+=2){
+    console.log(i)
 }
