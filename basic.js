@@ -61,12 +61,36 @@
 // }
 
 
-//voting eligibility
-let age = 20;
-age = 15
-if(age>=18){
-    console.log("Eligible To Vote");
-}
-else{
-    console.log("Not eligible To Vote")
+// //voting eligibility
+// let age = 20;
+// age = 15
+// if(age>=18){
+//     console.log("Eligible To Vote");
+// }
+// else{
+//     console.log("Not eligible To Vote")
+// }
+
+// // ATM balance checker
+// let balance =5000;
+// let withdrawlAmount = 2000;
+// if(balance>= withdrawlAmount){
+//     console.log("withdrawl successful")
+// }
+// else{
+//     console.log("insufficient balance")
+// }
+// console.log("remaining balance =", balance-withdrawlAmount)
+
+// // LOOPS
+// //tables
+// let number = 5;
+// for(let i=1;i<=10;i++){
+//     console.log(number*i)
+// }
+
+// enhanced version of tables
+let number = 5;
+for(let i = 1; i <= 10; i++){
+console.log(`${number} x ${i} = ${number * i}`);
 }
